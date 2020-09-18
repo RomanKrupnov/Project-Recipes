@@ -1,0 +1,37 @@
+footer.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: $footer-color;
+    align-items: center;
+    height: 60px;
+    padding: 0 50px 0 250px;
+
+    .footer__menu ul {
+        display: flex;
+
+        .footer__menu-item {
+            margin-right: 15px;
+            text-transform: uppercase;
+
+            .footer__menu-link {
+                font-size: 13px;
+                color: $main-grey;
+            }
+        }
+    }
+
+    .footer__social ul {
+        display: flex;
+        .footer__social-item {
+            width: 20px;
+            margin-left: 25px;
+        }
+
+        .footer__social-img {
+            max-width: 100%;
+        }
+    }
+}

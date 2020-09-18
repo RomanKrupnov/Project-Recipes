@@ -1,0 +1,107 @@
+@font-face {
+    font-family:"Recipe";
+    src: url("/fonts/fontForRecipies.ttf")
+}
+
+//Vue select
+@import "~vue-select/src/scss/vue-select.scss";
+
+// Fonts
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+//reset
+@import "~reset.css/reset.css";
+
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    background-color: #fff!important;
+}
+
+body {
+    font-family: Recipe, serif;
+    font-size: $font-size-base;
+    font-weight: normal;
+    line-height: $line-height-base;
+    color: $font-color;
+}
+
+p {
+    margin: 0;
+}
+
+a, a:link, a:active, a:visited {
+    transition: 0.3s;
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 30px;
+    font-weight: normal;
+    text-align: center;
+}
+
+ol, ul, dl {
+    margin-bottom: 0!important;
+}
+
+img {
+    max-width: 100%;
+}
+
+#app {
+    position: relative;
+    min-height: 100vh;
+
+    .main-row {
+        height: 100%;
+    }
+
+    .button {
+        border: 0;
+        background: $main-dark-color;
+        color: white;
+        text-decoration: none;
+        padding: 5px 30px;
+        cursor: pointer;
+    }
+
+    .ck-content {
+        min-height: 250px;
+    }
+
+}
+//Content Div
+@import "content";
+
+//left Menu
+@import "left-menu";
+
+//Footer
+@import "footer";
+
+//Header
+@import "header";
+
+//Recipes
+@import "recipes";
+
+//Form
+@import "form";
+
+//One Recipe
+@import "recipe";
+
+@import "slider";
+
+//@import '~@braid/vue-formulate/themes/snow/snow.scss';
+@import "formulate";

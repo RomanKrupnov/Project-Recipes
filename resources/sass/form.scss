@@ -1,0 +1,53 @@
+.form_wrapper {
+    max-width: 1000px;
+    margin: 0 auto;
+
+    label {
+        font-family: $font-family-sans-serif!important;
+        color: $font-color!important;
+        font-weight: 400;
+        width: 15%;
+        height: 100%;
+    }
+
+    input[type="file"] {
+        padding-left: 0!important;
+    }
+
+    input, select, textarea {
+        font-family: $font-family-sans-serif!important;
+        color: $font-color!important;
+        vertical-align: middle;
+        padding: 5px 10px;
+        width: 80%;
+        height: 100%;
+    }
+
+    textarea {
+        min-height: 200px;
+    }
+
+    .form__list-item {
+        min-height: 50px;
+        margin-bottom: 30px;
+    }
+
+    input[type="checkbox"] {
+        width: 25px;
+        height: 25px;
+    }
+
+}
+.form-login{
+    input{
+        margin-top: 30px;
+    }
+}
+
+.product-name {
+    flex-basis: 50%;
+}
+
+input:disabled {
+    background-color: $main-grey!important;
+}
